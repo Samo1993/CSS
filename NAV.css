@@ -1,0 +1,56 @@
+#option {
+    background-color: darkslategrey;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p {
+    display: inline;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.nav_link {
+    color: lightgrey
+}
+
+.nav__top {
+    display: inline;
+}
+
+.search {
+    display: inline-flex;
+    text-align: end;
+    margin-left: 40em;
+}
+
+.nav_dpr {
+    background-color: darkslategrey;
+    color: lightgrey;
+    border: none;
+}
+
+.nav_dsl {
+    color: grey;
+}
+
+.nav_but {
+    background-color: darkslategray;
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    margin-left: 4px;
+}
+
+.nav_but:hover {
+    background-color: greenyellow;
+    color: white;
+}
+
+/* svolto insieme a ilyasse */
