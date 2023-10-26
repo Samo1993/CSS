@@ -5,52 +5,82 @@
     color: white;
 }
 
-p {
-    display: inline;
+.navbar{
+    display: flex;
+}
+
+.nav__top-left{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav__top-right{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#first-elem{
+    margin: 20px;
+    font-size: 30px;
+}
+
+#second-elem{
+    margin: 15px;
     font-size: 20px;
 }
 
-a {
-    color: white;
-    margin-left: 5px;
-    text-decoration: none;
+#third-elem{
+    margin: 15px;
+    font-size: 20px;
 }
 
-.nav_link {
-    color: lightgrey
-}
-
-.nav__top {
-    display: inline;
-}
-
-.search {
-    display: inline-flex;
-    text-align: end;
-    margin-left: 40em;
-}
-
-.nav_dpr {
+#dpr{
     background-color: darkslategrey;
-    color: lightgrey;
+    margin: 15px;
+    font-size: 20px;
+    color: white;
     border: none;
 }
 
-.nav_dsl {
-    color: grey;
+#fifth-elem{
+    color: gray;
+    margin: 15px;
+    font-size: 20px;
 }
 
-.nav_but {
-    background-color: darkslategray;
-    border: 1px solid green;
-    border-radius: 4px;
+.custom-dpd{
+    position: relative;
+    cursor: pointer;
+    color: lightgray;
+    font-size: x-large;
+}
+
+#input{
+    font-size: 23px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    margin-right: 10px;
+}
+
+.button{
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: darkslategrey;
     color: green;
-    margin-left: 4px;
+    border: 2px solid green;
+    padding: 12px 25px;
+    cursor: pointer;
 }
 
-.nav_but:hover {
-    background-color: greenyellow;
+.button:hover {
+    background-color: green;
     color: white;
+    border: 20px;
 }
-
 /* svolto insieme a ilyasse */
+/* corretto insieme a Jacopo */
