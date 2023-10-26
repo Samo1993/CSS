@@ -10,22 +10,24 @@
 
 <body>
     <main>
-        <section id="option">
-            <nav>
-                <div class="nav__top">
-                    <p>Navbar</p>
-                    <a href="">Home</a>
-                    <a class="nav_link" href="">Link</a>
-                    <select class="nav_dpr" name="dropdown" id="dpr">
-                            <option value="dropdown">Dropdow</option>
-                            <option value="">link</option>
+       <section id="option">
+            <nav class="navbar">
+                <div class="nav__top-left">
+                    <a id="first-elem">Navbar</a>
+                    <a id="second-elem">Home</a>
+                    <a id="third-elem">Link</a>
+                    <select class="nav-dpr" name="dropdown" id="dpr">
+                        <option value="">Dropdow</option>
+                        <option value="">Link 1</option>
+                        <option value="">Link 2</option>
                     </select>
-                    <a class="nav_dsl" href="#">Disabled</a>
+                    <a id="fifth-elem">Disabled</a>
                 </div>
-                <div class="search">
-                    <label for="search"></label>
-                    <input type="search" name="search" placeholder="Search">
-                    <button class="nav_but">Search</button>
+                <div class="nav__top-right">
+                    <form class="form">
+                        <input id="input" type="search" required placeholder="Search">
+                        <button class="button" type="search">Search</button>
+                    </form>
                 </div>
             </nav>
         </section>
