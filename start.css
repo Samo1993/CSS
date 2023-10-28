@@ -1,30 +1,56 @@
 body {
-    position: relative;
+    background-color: #fafbff;
+}
+
+.nav__top {
+    background-color: #234567;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
 }
 
-body :nth-child(1) {
-    order: 2;
+.sidebar {
+    background-color: #edefff;
 }
 
-body :nth-child(2) {
-    order: 3;
+section.sidebar {
+    display: flex;
+    flex-direction: column;
 }
 
-body :nth-child(3) {
-    order: 1;
+#img {
+    grid-area: img;
 }
 
-body :nth-child(4) {
-    order: 2;
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
 }
 
-body :nth-child(5) {
-    order: 0;
+a:hover {
+    color: #ff784d;
+    transition: 0.3s;
 }
 
-#orange {
-    width: 300px
+@media (max-width: 990px) {
+
+article {
+    padding: 10px;
+    margin: 10px;
 }
+
+.foo-img {
+    display: flex;
+    flex-direction: column;
+}
+
+#one,
+#two {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+}
+
+/* sicuramente avrò sbagliato tutto calcolando che l'ho fatto da sola */
