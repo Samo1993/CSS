@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NavBar in CSS</title>
-    <link rel="stylesheet" href="NAV.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../Nav/nav_2.css">
 </head>
-
 <body>
-    <main>
-       <section id="option">
-            <nav class="navbar">
-                <div class="nav__top-left">
-                    <a id="first-elem">Navbar</a>
-                    <a id="second-elem">Home</a>
-                    <a id="third-elem">Link</a>
-                    <select class="nav-dpr" name="dropdown" id="dpr">
-                        <option value="">Dropdow</option>
-                        <option value="">Link 1</option>
-                        <option value="">Link 2</option>
-                    </select>
-                    <a id="fifth-elem">Disabled</a>
-                </div>
-                <div class="nav__top-right">
-                    <form class="form">
-                        <input id="input" type="search" required placeholder="Search">
-                        <button class="button" type="search">Search</button>
-                    </form>
-                </div>
-            </nav>
-        </section>
-    </main>
+  <nav id="navbar">
+    <div class="nav__top">
+      <div class="nav__top-left">
+        <p>Navbar</p>
+      </div>
+      <div class="nav__top-center">
+        <a href="">Home</a>
+        <a href="">Link</a>
+        <select class="nav__dpr">
+          <option value="">Dropdown</option>
+          <option value="">Link 1</option>
+          <option value="">Link 2</option>
+        </select>
+        <a id="disabled">Disabled</a>
+      </div>
+      <div class="nav__top-right">
+        <input class="input" type="text" placeholder="Search">
+        <button type="button" class="button">Search</button>
+      </div>
+    </div>
+  </nav>
 </body>
-
 </html>
