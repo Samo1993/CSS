@@ -1,86 +1,60 @@
-#option {
-    background-color: darkslategrey;
-    padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+#navbar {
+    background-color: rgb(42, 61, 60);
     color: white;
+    font-size: 20px;
 }
 
-.navbar{
-    display: flex;
-}
-
-.nav__top-left{
-    width: 100vw;
-    height: 60px;
+.nav__top {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-.nav__top-right{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
 }
 
-#first-elem{
-    margin: 20px;
-    font-size: 30px;
+.nav__dpr {
+    border: none;
+    background-color: rgb(42, 61, 60);
+    color: inherit;
+    font-size: inherit;
 }
 
-#second-elem{
-    margin: 15px;
-    font-size: 20px;
+p {
+   font-size: 25px;
+   margin-left: 10px;
 }
 
-#third-elem{
-    margin: 15px;
-    font-size: 20px;
+a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px;
 }
 
-#dpr{
-    background-color: darkslategrey;
-    margin: 15px;
-    font-size: 20px;
-    color: white;
+:disabled {
+    border: none;
+    background-color: initial;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.input {
     border: none;
 }
 
-#fifth-elem{
-    color: gray;
-    margin: 15px;
-    font-size: 20px;
-}
-
-.custom-dpd{
-    position: relative;
-    cursor: pointer;
-    color: lightgray;
-    font-size: x-large;
-}
-
-#input{
-    font-size: 23px;
-    border-radius: 5px;
-    padding: 15px 35px;
-    margin-right: 10px;
-}
-
-.button{
-    font-size: 20px;
-    border-radius: 7px;
-    background-color: darkslategrey;
-    color: green;
-    border: 2px solid green;
+.input, .button {
+    font-size: initial;
     padding: 12px 25px;
-    cursor: pointer;
+    border-radius: 6px;
+}
+
+.button {
+    background-color:  rgb(42, 61, 60);
+    border:2px solid green;
+    color: green;
+    margin-right: 10px;
 }
 
 .button:hover {
     background-color: green;
     color: white;
-    border: 20px;
+    cursor: pointer;
 }
-/* svolto insieme a ilyasse */
-/* corretto insieme a Jacopo */
