@@ -1,0 +1,60 @@
+body {
+    width: 314px;
+    max-height: 461px;
+    display: grid;
+    position: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px
+}
+
+#green {
+    background-color: #baffc9;
+    display: flex;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#yellow,
+#red {
+    width: 100%;
+}
+
+#yellow {
+    background-color: #ffffba;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#red {
+    background-color: #ffb3ba;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#orange {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    background-color: #ffdfba;
+}
+
+#blue {
+    background-color: #bae1ff;
+    grid-column: 3;
+    grid-row: 2 / 4;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* non credo che corrisponda all'immagine di riferimento, perché ho avuto problemi nel riscaricare i file. nel link della piattaforma, cliccando "scarica contenuti" si apre la pagina con questo codice di errore 
+"{
+  "error": {
+    "code": 404,
+    "message": "Not Found."
+  }
+}" Ho chiesto a Veronica di passarmi i file e ho segnalato anche in piattaforma*/
