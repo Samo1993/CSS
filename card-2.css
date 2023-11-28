@@ -1,0 +1,27 @@
+main {
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+a {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
