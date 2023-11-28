@@ -1,0 +1,187 @@
+body{
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cat {
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #b1b1b1;
+    border-radius: 40px;
+}
+
+.icon {
+    margin: 10px 0 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    background-color: white;
+}
+
+.info {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h3, .data {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.data {
+    color: white;
+}
+
+.gatto {
+    margin: 0;
+}
+
+.word {
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cat {
+        height: 510px;
+        flex-direction: column;
+        margin: 20px;
+        background-color: #b1b1b1;
+        border-radius: 40px;
+    }
+
+    .icon {
+        margin: 10px 0 0 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 80px;
+        background-color: white;
+    }
+
+    .info {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    h3,
+    .data {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        text-align: left;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .data {
+        color: white;
+    }
+
+    .gatto {
+        margin: 0;
+    }
+
+    .word {
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 375px) {
+    body {
+        width: 400px;
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cat {
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        background-color: #b1b1b1;
+        border-radius: 40px;
+    }
+
+    .icon {
+        margin: 10px 0 0 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 80px;
+        background-color: white;
+    }
+
+    .info {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    h3,
+    .data {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        text-align: left;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+    .data {
+        color: white;
+    }
+
+    .gatto {
+        margin: 0;
+    }
+
+    .word {
+        font-weight: bold;
+    }
+
+}
+
+
+/* mi rendo conto di non essere riuscita a fare:
+il "menu" con i pallini,
+le icone del cuoricino e del fumetto
+il gradient del colore di fondo
+sistemare il nome e la data accanto all'icona bianca e sicuramente anche il fatto che rimangono in colonna anche se dovrebbero cambiare disposizione quando si cambia modalità schermo*/
