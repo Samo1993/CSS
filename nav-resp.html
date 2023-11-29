@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../Nav/nav_2.css">
+</head>
+
+<body>
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </label>
+  <nav class="menu">
+    <div class="nav__top">
+      <div class="nav__top-left">
+        <p>Navbar</p>
+      </div>
+      <div class="nav__top-center">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Link</a></li>
+          <li><select class="nav__dpr">
+              <option value=""><a href="#">Dropdown</a></option>
+              <option value=""><a href="#">Link 1</a></option>
+              <option value=""><a href="#">Link 2</a></option>
+            </select></li>
+          <li><a id="disabled">Disabled</a></li>
+        </ul>
+      </div>
+      <div class="nav__top-right">
+        <input class="input" type="text" placeholder="Search">
+        <button type="button" class="button">Search</button>
+      </div>
+    </div>
+  </nav>
+</body>
+
+</html>
