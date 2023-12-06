@@ -9,19 +9,20 @@ main {
     justify-content: center;
 }
 
-h3 {
+.title {
     text-align: center;
 }
 
-p {
+.text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: left;
     align-items: left;
 }
 
-a {
-    flex-direction: row;
+.links {
+    display: flex;
     text-align: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
